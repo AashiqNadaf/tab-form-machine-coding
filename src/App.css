@@ -1,0 +1,43 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tab-button--container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.tab-button{
+    padding: 10px;
+    outline: none;
+    border-radius: 8px;
+    min-width: 80px;
+    cursor: pointer;
+    max-width: 80px;
+}
+
+.active-tab{
+    background-color: aqua;
+    color: blue;
+}
+
+.tab-body--container{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 11px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.next-prev--container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
